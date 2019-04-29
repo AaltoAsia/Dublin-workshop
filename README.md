@@ -38,11 +38,11 @@ Reads temperature and humidity from SHT-20 sensors and send to a hard-coded O-MI
 
 ### CO2_test
 
-Reads CO2 from SHT-20 sensors and send to a hard-coded O-MI node.
+Reads CO2 from S-100 sensors and send to a hard-coded O-MI node.
 
 
 ## Links
 
-* [Gauge visualization source code](https://github.com/AaltoAsia/o-mi-subscription-demo)
 * [O-MI Node reference implementation](https://github.com/AaltoAsia/O-MI)
+* [Gauge visualization source code](https://github.com/AaltoAsia/o-mi-subscription-demo)
 
