@@ -3,7 +3,7 @@ Dublin workshop
 Tutorial to get familiar with connnecting sensors to O-MI Node the simple way, and introducting subscriptions.
 
 
-## Scripts (for Raspberry Pi)
+## Scripts for Raspberry Pi
 
 ### co2-omi-sent.py: (CO2 sensor with Raspberry Pi)
 
@@ -29,7 +29,16 @@ This bash script library is used to construct O-MI write requests.
 This script defines the O-DF structure and where to get values. It reads values of Raspberry pi I2C/OneWire sensors.
 
 
-## Scripts (for ESP8266)
+## Programs for ESP8266
+
+### temp_humi_test
+
+Reads temperature and humidity from SHT-20 sensors and send to a hard-coded O-MI node.
+
+
+### CO2_test
+
+Reads CO2 from SHT-20 sensors and send to a hard-coded O-MI node.
 
 
 ## Links
