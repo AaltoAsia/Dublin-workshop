@@ -1,10 +1,4 @@
 /*!
- * @file  DFRobot_SHT20_test.ino
- * @brief DFRobot's SHT20 Humidity And Temperature Sensor Module
- * @n     This example demonstrates how to read the user registers to display resolution and other settings.
- *        Uses the SHT20 library to display the current humidity and temperature.
- *        Open serial monitor at 9600 baud to see readings.
- *        Errors 998 if not sensor is detected. Error 999 if CRC is bad.
  * Hardware Connections:
  * -VCC = 3.3V
  * -GND = GND
