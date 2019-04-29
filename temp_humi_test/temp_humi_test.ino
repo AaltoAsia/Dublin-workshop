@@ -29,8 +29,7 @@ void setup()
     Serial.begin(115200);
     Serial.println("Setup");
        
-    //WiFiMulti.addAP("TP-LINK_C5E618", NULL); // no password
-    WiFiMulti.addAP("aj-ASUS", "Pakistan1947");
+    WiFiMulti.addAP("TP-LINK_C5E618", NULL); // no password
 
 
     sht20.initSHT20();                                  // Init SHT20 Sensor
