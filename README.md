@@ -3,7 +3,7 @@ Dublin workshop
 Tutorial to get familiar with connnecting sensors to O-MI Node the simple way, and introducting subscriptions.
 
 
-## Scripts
+## Scripts (for Raspberry Pi)
 
 ### co2-omi-sent.py: (CO2 sensor with Raspberry Pi)
 
@@ -28,6 +28,8 @@ This bash script library is used to construct O-MI write requests.
 
 This script defines the O-DF structure and where to get values. It reads values of Raspberry pi I2C/OneWire sensors.
 
+
+## Scripts (for ESP8266)
 
 
 ## Links
