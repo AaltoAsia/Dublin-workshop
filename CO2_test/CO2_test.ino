@@ -22,9 +22,12 @@ HTTPClient http;
 
 void setup()
 {
-    Serial.begin(38400);
+    // Use Receive line to get CO2 sensor values (disconnect to upload this program via USB)
+    // Use Transmit line to print log messages via USB connection
+    Serial.begin(38400); 
     Serial.println("Setup");
-       
+    
+    // WiFi Access Point, change or add access points for different WiFi
     WiFiMulti.addAP("TP-LINK_C5E618", NULL); // no password
 
 }
@@ -42,7 +45,9 @@ void loop()
     Serial.println();
 
     if (WiFiMulti.run() == WL_CONNECTED) {
-      if (co2 != 0) {
+        
+      // Check if we got a value yet or not (S-100 sensor has a hard-coded interval)
+      if (co2 != 0) { 
           send(http, co2);
       }
       
