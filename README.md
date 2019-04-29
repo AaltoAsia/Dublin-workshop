@@ -1,4 +1,7 @@
-# Dublin-workshop
+Dublin workshop
+=======
+Tutorial to get familiar with connnecting sensors to O-MI Node the simple way, and introducting subscriptions.
+
 
 ## Scripts
 
@@ -25,4 +28,10 @@ This bash script library is used to construct O-MI write requests.
 
 This script defines the O-DF structure and where to get values. It reads values of Raspberry pi I2C/OneWire sensors.
 
+
+
+## Links
+
+* [Gauge visualization source code](https://github.com/AaltoAsia/o-mi-subscription-demo)
+* [O-MI Node reference implementation](https://github.com/AaltoAsia/O-MI)
 
