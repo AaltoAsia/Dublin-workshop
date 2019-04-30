@@ -41,6 +41,11 @@ Reads temperature and humidity from SHT-20 sensors and send to a hard-coded O-MI
 Reads CO2 from S-100 sensors and send to a hard-coded O-MI node.
 
 
+## omi-agent.py: (An example agent)
+
+A python script to send O-MI write request.
+
+
 ## Links
 
 * [O-MI Node reference implementation](https://github.com/AaltoAsia/O-MI)
