@@ -5,14 +5,14 @@ Tutorial to get familiar with connnecting sensors to O-MI Node the simple way, a
 
 ## Scripts for Raspberry Pi
 
-### co2-omi-sent.py: (CO2 sensor with Raspberry Pi)
+### co2-omi-send.py: (CO2 sensor with Raspberry Pi)
 
 This script is used to obtain CO2 value through serial interface and send to the O-MI node. Change myhost:post to the address of receiving O-MI node. 
 - For RPi 1, the serial port is linked to /dev/serial0  
 - For RPi 3, the port is linked to /dev/ttyS0
 
 
-### ht-omi-sent.py: (Humidity and Temperature Sensor with Raspberry Pi)
+### ht-omi-send.py: (Humidity and Temperature Sensor with Raspberry Pi)
 
 This script is used to obtain humidity and temperature value from SHT-20 sensor through I2C interface and send to the O-MI node. 
 Change myhost:post to the address of receiving O-MI node.
@@ -41,7 +41,7 @@ Reads temperature and humidity from SHT-20 sensors and send to a hard-coded O-MI
 Reads CO2 from S-100 sensors and send to a hard-coded O-MI node.
 
 
-## omi-agent.py: (An example agent)
+## omi-send.py: (An example agent)
 
 A python script to send O-MI write request.
 
