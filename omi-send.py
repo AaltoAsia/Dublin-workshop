@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 import requests
 
-while True:
-    requests.post("http://localhost:8080", data =
+r = requests.post("http://localhost:8080", data =
 """<omiEnvelope xmlns="http://www.opengroup.org/xsd/omi/1.0/" version="1.0" ttl="0">
   <write msgformat="odf">
     <msg>
       <Objects xmlns="http://www.opengroup.org/xsd/odf/1.0/">
         <Object>
-          <id>Computer</id>
+          <id>Linux-Computer</id>
           <InfoItem name="CPUTemperature">
             <value>""" + input() + """</value>
           </InfoItem>
@@ -17,3 +16,4 @@ while True:
     </msg>
   </write>
 </omiEnvelope>""")
+print(r.text)
