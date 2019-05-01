@@ -23,6 +23,7 @@ void setup()
     Serial.begin(115200);
     Serial.println("Setup");
        
+    // Connect to this WiFi Access Point:
     WiFiMulti.addAP("TP-LINK_C5E618", NULL); // no password
 
 
