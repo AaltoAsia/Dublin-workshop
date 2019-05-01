@@ -41,9 +41,15 @@ Reads temperature and humidity from SHT-20 sensors and send to a hard-coded O-MI
 Reads CO2 from S-100 sensors and send to a hard-coded O-MI node.
 
 
-## omi-send.py: (An example agent)
+## Reading Laptop Temperature
+
+### omi-send-linux.py:
 
 A python script to send O-MI write request.
+
+### omi-send-mac.py:
+
+A python script to remove extra characters and send O-MI write request.
 
 
 ## Links
