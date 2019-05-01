@@ -8,8 +8,8 @@ while True:
    <msg>
      <Objects xmlns="http://www.opengroup.org/xsd/odf/1.0/">
        <Object>
-         <id>Example</id>
-         <InfoItem name="userInput">
+         <id>MAC-Computer</id>
+         <InfoItem name="CPUTemperature">
            <value>""" + input().replace('°C','') + """</value>
          </InfoItem>
        </Object>
