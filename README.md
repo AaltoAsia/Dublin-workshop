@@ -1,6 +1,7 @@
 Dublin workshop
 =======
 Tutorial to get familiar with connnecting sensors to O-MI Node the simple way, and introducting subscriptions.
+Open `tutorial-final.pdf` slideshow for futrher instructions.
 
 
 ## Scripts for Raspberry Pi
